@@ -1,0 +1,141 @@
+body {
+  background-color: #edf0f2;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Space Mono', monospace;
+  font-size: 3.5rem;
+  margin: 0% auto 10%;
+  padding-top: 8%;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+/* button */
+.btn {
+  border: solid;
+  border-radius: 0;
+  background: #000;
+  color: white;
+  padding: 1.5% 15%;
+}
+
+.btn:hover {
+  background: #000;
+}
+
+/* 1st page */
+.pp {
+  width: 40%;
+  margin: 15% auto 8%;
+}
+.pp:hover{
+  width: 45%;
+  margin: 15% auto 3%;
+  transition: 0.4s ease-in 0s;
+}
+.l-title {
+  background-color: #fff;
+}
+
+.name {
+  font-family: 'Space Mono', monospace;
+  font-size: 2.7rem;
+  font-weight: 900;
+}
+
+.about {
+  font-family: 'Space Mono', monospace;
+  margin: 20% auto 5%;
+  font-size: 3rem;
+}
+
+.profession {
+  font-weight: 900;
+  margin: 2% 8% 20%;
+  font-size: 1.5rem;
+}
+
+.intro {
+  margin: 6% 15% 12%;
+}
+
+/* skill */
+.photo-text {
+  margin: 15% 5% 15%;
+}
+
+.web-text {
+  margin: 30% 5% 15%;
+}
+
+.chess-text {
+  margin: 30% 5% 15%;
+}
+
+.python-text {
+  margin: 15% 5% 15%;
+}
+
+.skill {
+  margin: 15% auto 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.row-skills {
+  margin: auto 5% 0%;
+}
+.fa-4x:hover{
+  color:#393E46;
+}
+/* Work */
+#work {
+  /* background-color: #fff; */
+}
+
+.row-work {
+  padding: 0 7%;
+}
+
+.work-photo {
+  width: 50%;
+  margin-bottom: 18%;
+}
+.work-photo:hover{
+  width: 60%;
+  transition: 0.4s ease-in 0s;
+  margin-bottom: 2%;
+}
+.btn-work {
+  margin-top: 2%;
+  padding: 2% 15%;
+}
+
+.work-photo-1 {
+  width: 43%;
+  margin-bottom: 18%;
+}
+.work-photo-1:hover{
+  width: 55%;
+  transition: 0.4s ease-in 0s;
+  margin-bottom: 0%;
+}
+.work-text {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 10%
+}
+.hMy-Work{
+margin-bottom: 6%;
+}
