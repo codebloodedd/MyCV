@@ -10,7 +10,9 @@ h1 {
   margin: 0% auto 10%;
   padding-top: 8%;
 }
-
+button{
+  display: block;
+}
 a {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
@@ -22,7 +24,19 @@ a:hover {
   color: #000;
   text-decoration: none;
 }
+/* navigation bar */
+.navbar{
+  background-color: #000;
+  padding: 0 ;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.navbar-brand{
+  font-family: 'Qwitcher Grypen', cursive;
+  font-size: 2.5rem;
+  padding: 0
 
+}
 /* button */
 .btn {
   border: solid;
@@ -106,7 +120,7 @@ a:hover {
 }
 
 .row-work {
-  padding: 0 7%;
+  padding: 0 7% 6%;
 }
 
 .work-photo {
@@ -116,26 +130,38 @@ a:hover {
 .work-photo:hover{
   width: 60%;
   transition: 0.4s ease-in 0s;
-  margin-bottom: 2%;
+  margin-bottom: 4.5%;
 }
 .btn-work {
   margin-top: 2%;
   padding: 2% 15%;
 }
 
-.work-photo-1 {
-  width: 43%;
-  margin-bottom: 18%;
-}
-.work-photo-1:hover{
-  width: 55%;
-  transition: 0.4s ease-in 0s;
-  margin-bottom: 0%;
-}
 .work-text {
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 10%
 }
 .hMy-Work{
 margin-bottom: 6%;
+}
+/* contact me */
+#Contact{
+  background-color: #fff;
+  margin-bottom: 0;
+}
+.hContact-Me{
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+.c-icon{
+  color: #393E46;
+  margin-bottom: 3%;
+}
+.cr-text{
+  color: #8f8f8f;
+  font-weight: 500;
+}
+.cm-btn{
+  padding: 1% 8%;
+  margin-bottom: 5%;
 }
