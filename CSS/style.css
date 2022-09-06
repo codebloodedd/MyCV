@@ -165,3 +165,10 @@ margin-bottom: 6%;
   padding: 1% 8%;
   margin-bottom: 5%;
 }
+/* for mobile */
+@media (max-width: 1028px){
+  .work-photo {
+    width: 60%;
+    margin-bottom: 4.5%;
+  }
+}
