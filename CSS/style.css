@@ -171,4 +171,12 @@ margin-bottom: 6%;
     width: 60%;
     margin-bottom: 4.5%;
   }
+  .work-text {
+    margin: 15% auto;
+    font-size: 4rem;
+  }
+  .h1 {
+    font-size: 5rem;
+  }
 }
+
